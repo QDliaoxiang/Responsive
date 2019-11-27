@@ -1,2 +1,2 @@
 # Responsive
-这是一个纯html、css手写的响应式网站，仿起飞页
+很久之前写的，想把它同步到github上面来
