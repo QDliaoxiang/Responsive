@@ -1,0 +1,114 @@
+@charset 'utf-8';
+#rightsidebar{
+	width:55px;
+	height:270px;
+	background-color:pink;
+	top:0;
+	bottom:0;
+	right:0;
+	margin:auto;
+	}
+#rightsidebar ul li{
+	line-height:54px;
+	background-color:#31353d;
+	transition:.5s;
+	}
+#rightsidebar ul li:hover{
+	margin-left:-75px;
+	}
+#rightsidebar ul li a{
+	display:block;
+	width:100%;
+	height:54px;
+}
+#rightsidebar ul li:hover a{
+	background-color:#31a3ff;
+	}
+#rightsidebar ul li:nth-child(1){
+	width:130px;
+	}
+#rightsidebar ul li:nth-child(2){
+	width:150px;
+	}
+#rightsidebar ul li:nth-child(2):hover{
+	margin-left:-95px;
+	}
+#rightsidebar ul li:nth-child(3){
+	width:130px;
+	}
+#rightsidebar ul li:nth-child(4){
+	overflow:hidden;
+	}
+#rightsidebar ul li:nth-child(4):hover{
+	margin-left:0;
+	overflow:visible;
+	}
+#rightsidebar ul li:nth-child(4):hover .erweima{
+	opacity:1;
+	}
+#rightsidebar ul li:nth-child(5){
+	width:130px;
+	}
+#rightsidebar ul li i{
+	display:inline-block;
+	width:55px;
+	height:35px;
+	background-image:url('../images/48.png');
+	background-repeat:no-repeat;
+	vertical-align:middle;
+	}
+#rightsidebar ul li i.kf{
+	background-image:url('../images/47.png');
+	background-position:center 6px;
+	}
+#rightsidebar ul li i.phone{
+	background-position:-30px 2px;
+	}
+#rightsidebar ul li i.text{
+	background-position:-30px -182px;
+	}
+#rightsidebar ul li i.wechat{
+	background-position:-30px -75px;
+	}
+#rightsidebar ul li i.qq{
+	background-position:-30px -38px;
+	}
+#rightsidebar ul li span{
+	display:inline-block;
+	vertical-align:middle;
+	color:#fff;
+	font-size:14px;
+	text-align:center;
+	}
+#rightsidebar ul li .erweima{
+	width:185px;
+	height:195px;
+	top:0;
+	bottom:0;
+	right:80px;
+	margin:auto;
+	background-image:linear-gradient(rgba(0,0,0,.5) 0%,rgba(0,0,0,.5) 50%,rgba(0,0,0,.9) 50%,rgba(0,0,0,.9) 100%);
+	border-radius:10px;
+	text-align:center;
+	opacity:0;
+	transition:.5s;
+	}
+#rightsidebar ul li .erweima img{
+	margin-top:10px;
+	}
+#rightsidebar ul li .erweima span{
+	display:block;
+	line-height:30px;
+	}
+#rightsidebar ul li .erweima:after{
+	content:'';
+	position:absolute;
+	width:0;
+	height:0;
+	top:0;
+	bottom:0;
+	right:-10px;
+	margin:auto;
+	border:8px solid red;
+	border-color:transparent transparent transparent #000;
+	}
