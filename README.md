@@ -1,2 +1,2 @@
 # Responsive
-很久之前写的，想把它同步到github上面来
+前端入门纯手写HTML CSS练手项目
